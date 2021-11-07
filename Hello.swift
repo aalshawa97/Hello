@@ -20,6 +20,10 @@ class Car {
 	func drive() {
 		print("Driving at \(topSpeed)")
 	}
+
+	func fly(){
+		print("Flying")
+	}
 }
 
 let myRide = Car()
