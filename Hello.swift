@@ -5,6 +5,15 @@
 
 var someCharacter:Character = "c"
 
+var str = "Hello from Swift!"
+
+var sum = 0
+
+for index in 1...5 {
+	sum += index
+	print(sum)
+}
+
 switch someCharacter {
 	case "a":
 		print("is an A")
@@ -13,4 +22,4 @@ switch someCharacter {
 	default:
 		print("some fallback")
 }
-print("Hello from Swift!")
+print(str)
