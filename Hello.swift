@@ -14,6 +14,18 @@ class BlogPost {
 	}
 }
 
+class Car {
+	var topSpeed = 200
+
+	func drive() {
+		print("Driving at \(topSpeed)")
+	}
+}
+
+let myRide = Car()
+//myRide.topSpeed
+myRide.drive()
+
 let myPost = BlogPost()
 myPost.title = "Hello Playground"
 myPost.author = "Chris Ching"
